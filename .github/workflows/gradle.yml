@@ -37,6 +37,6 @@ jobs:
       uses: mr-smithers-excellent/docker-build-push@v4
       with:
         image: delhisanjay/github_actions_demo
-        registry: docker
+        registry: docker.io
         username: ${{ secrets.DOCKER_USERNAME }}
         password: ${{ secrets.DOCKER_PASSWORD }}
